@@ -10,7 +10,7 @@ export async function transcribe(audio) {
 
     const transcribe = await pipeline(
       "automatic-speech-recognition",
-      "Xenova/whisper-small"
+      "Xenova/whisper-base"
     )
 
     const transcription = await transcribe(audio, {
