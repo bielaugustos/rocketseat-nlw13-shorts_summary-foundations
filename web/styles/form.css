@@ -10,9 +10,9 @@
   border: none;
   color: #fff;
   background-color: #202024;
-  border-radius: 6px;
+  border-radius: 5px;
   padding: 0 12px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 #form > input:focus {
@@ -27,10 +27,11 @@
   height: 48px;
   width: 48px;
   border: none;
-  border-radius: 6px;
+  border-radius: 5px;
   background-color: #8257e5;
+
   cursor: pointer;
-  transition: backgound-color 0.2s;
+  transition: background-color 0.2s;
 }
 
 #form > button:hover {
@@ -38,7 +39,6 @@
 }
 
 #form > button i {
+  font-size: 24px;
   color: #fff;
-  font-size: 18px;
-  font-weight: 100;
 }
